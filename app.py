@@ -24,7 +24,7 @@ st.set_page_config(
     }
 )
 
-def load_css(file_name = "C:\\Users\\Administrator\\Downloads\\streamlit code\\styles.css"):
+def load_css(file_name = "styles.css"):
     with open(file_name) as f:
         css = f'<style>{f.read()}</style>'
     return css
